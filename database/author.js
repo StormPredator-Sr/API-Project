@@ -1,6 +1,6 @@
 const mongoose = require("mongoose");
 
-//create our author schema
+//create our author Schemas
 const AuthorSchema = mongoose.Schema(
   {
     id: Number,
