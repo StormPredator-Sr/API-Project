@@ -1,7 +1,7 @@
 const books = [
   {
     ISBN: "12345Book",
-    title: "Tesla!",
+    title: "Tesla!!!",
     pubDate: "2021-08-05",
     language: "en",
     numPage: 250,
@@ -13,12 +13,12 @@ const books = [
 
 const author = [
   {
-    id:1,
-    name: "Maaz",
+    id: 1,
+    name: "Aradhana",
     books: ["12345Book", "secretBook"]
   },
   {
-    id:2,
+    id: 2,
     name: "Elon Musk",
     books: ["12345Book"]
   }
@@ -31,10 +31,10 @@ const publication = [
     books: ["12345Book"]
   },
   {
-    id: 2,
-    name: "writex2",
-    books: []
-  }
+   id: 2,
+   name: "writex2",
+   books: []
+ }
 ]
 
 module.exports = {books , author , publication};
